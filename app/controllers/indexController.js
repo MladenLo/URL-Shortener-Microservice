@@ -24,7 +24,7 @@ indexController.newUrl = function(req, res) {
                 var newUrl = {
                     unique_number: nextValue,
                     url: req.params.url,
-                    short_url: "https://url-shortener-microservice-mladenlo.c9users.io/" + nextValue
+                    short_url: "https://url-shortener-mladenlo.herokuapp.com/" + nextValue
                 }
                 new Url( newUrl ).save(function(err){
                     if(err){
