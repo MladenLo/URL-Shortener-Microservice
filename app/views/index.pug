@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+ head
+  title Timestamp API
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='/css/style.css')
+ body
+  #container
+   h1 URL Shortener Microservice by Mladen
+   p This service can save your URL and give you unique link on this website to access it.
+   p 1: Example to add new link: 
+    span.code https://url-shortener-microservice-mladenlo.c9users.io/new/https://www.facebook.com
+   p 2: Example response: 
+    span.code {"original_url":"https://www.facebook.com","short_url":"https://url-shortener-microservice-mladenlo.c9users.io/9"}
+   p 3: Copy short_url from response to be redirected to your page.
