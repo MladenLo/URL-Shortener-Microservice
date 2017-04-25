@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://<username>:<password>@ds145009.mlab.com:45009/mladenlodb');
+mongoose.connect('mongodb://iamawesome:picajzla1@ds145009.mlab.com:45009/mladenlodb');
 var Schema = mongoose.Schema;
 
 var URL = new Schema({
